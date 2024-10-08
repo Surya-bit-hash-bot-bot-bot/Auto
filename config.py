@@ -3,18 +3,18 @@ from os import environ, getenv
 id_pattern = re.compile(r'^.\d+$') 
 
 
-API = environ.get("API", "84dd294d42244aef4d7a067a82dea56d24c0c058") # shortlink api
-URL = environ.get("URL", "offerlinks.in") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/offerlinks_ofcl/569") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "Jdirhrirjdrkbot") # bot username without @
+API = environ.get("API", "544622f7e2758cda8ed00914e54b647fff7895d3") # shortlink api
+URL = environ.get("URL", "publicearn.com") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Cultured_Sparta/5") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "Riasauto_renamebot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
 
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7") 
+    API_ID    = os.environ.get("API_ID", "20478011")
+    API_HASH  = os.environ.get("API_HASH", "0e4dcf39643e83c3c174a0d2370e5b4a")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7722098422:AAFOIRfS3XF4BMiZeGQYGYBu1VJ1kEmg2pA") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","codeflix")     
@@ -24,9 +24,9 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6497757690').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'belly567guj').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002456124495"))
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2061656269').split()]
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Anime_Sparta').split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002306621324"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
