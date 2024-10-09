@@ -6,7 +6,7 @@ id_pattern = re.compile(r'^.\d+$')
 API = environ.get("API", "544622f7e2758cda8ed00914e54b647fff7895d3") # shortlink api
 URL = environ.get("URL", "publicearn.com") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Cultured_Sparta/5") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "Riasauto_renamebot") # bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Trfjrjfjail_bot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
 
 
@@ -14,7 +14,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "20478011")
     API_HASH  = os.environ.get("API_HASH", "0e4dcf39643e83c3c174a0d2370e5b4a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7722098422:AAHI4742OPGP7ZU_WztAqTEv2ra8w3HekO0") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7077374297:AAGgxSqJOrJ5GR8E3iiphrAzpL1FT1RW3Fk") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","codeflix")     
